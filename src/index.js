@@ -1,8 +1,8 @@
 import "./CSS/Spinner/Spinner.css"
-import Spinner from "./js/Spinner/Spinner"
+import {Spinner} from "./js/Spinner/Spinner"
 
-var Dstyle = {
+var DGstyle = {
     Spinner
 }
 
-window.Dstyle = Dstyle;
+window.DGstyle = DGstyle;
