@@ -27,14 +27,19 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/,
+                test: /\.tsx?$/,            // Match .ts and .tsx files
+                use: 'ts-loader',
+                exclude: /node_modules/,
+              },
+              {
+                test: /\.css$/,             // Match .css files
                 use: ['style-loader', 'css-loader'],
-                exclude: '/node_modules/'
-            }
+                exclude: /node_modules/,
+              },
         ]
     },
     resolve: {
-        extensions: ['.css', '.js']
+        extensions: ['.css', '.js', '.ts', '.tsx']
     },
     performance: {
         maxEntrypointSize: 512000,
