@@ -85,7 +85,7 @@ Make a change in your file and instantaneously see your updates!
 
 > "The only way to learn a new programming language is by writing programs in it." – Dennis Ritchie
 
-"Programs must be written for people to read, and only incidentally for machines to execute." – Harold Abelson
+> "Programs must be written for people to read, and only incidentally for machines to execute." – Harold Abelson
 
 > "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." – Martin Fowler
 
